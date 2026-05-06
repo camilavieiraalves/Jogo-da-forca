@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <h1>Biblioteca Durmeval Trigueiro Mendes</h1>
+  <img src="img/logomarca-transparente.png" alt="Logo">
+</header>
+<h1>Forca</h1>
+<h2>José Américo de Almeida</h2>
+
+<div class="container">
+
+  <!-- ESQUERDA -->
+  <div class="carrossel" id="carrossel-esquerda">
+    <div class="slide ativo">
+      <img src="img/a bagaceira.jpg">
+      <h3>A Bagaceira</h3>
+      <p>Romance regionalista sobre a seca e conflitos no Nordeste.</p>
+    </div>
+
+    <div class="slide">
+      <img src="img/a palvra e o tempo.jpeg">
+      <h3>A palavra e o tempo</h3>
+      <p>Narra etapas marcantes de sua trajetória política e literária entre 1930 e 1951.</p>
+    </div>
+
+    <div class="slide">
+      <img src="img/coiteiros.png">
+      <h3>Coiteiros</h3>
+      <p>Aborda o cangaço e suas consequências.</p>
+    </div>
+  </div>
+
+  <!-- JOGO -->
+  <div class="jogo">
+    <p id="dica"></p>
+    <div id="palavra"></div>
+    <div id="letras"></div>
+    <canvas id="forca" width="200" height="200"></canvas>
+    <div id="mensagem"></div>
+    <button id="reiniciar">Jogar Novamente</button>
+  </div>
+
+  <!-- DIREITA -->
+  <div class="carrossel" id="carrossel-direita">
+    <div class="slide ativo">
+      <img src="img/reflexões de uma cabra.jpeg">
+      <h3>Reflexões de um Cabra</h3>
+      <p>Memórias e reflexões pessoais do autor.</p>
+    </div>
+
+    <div class="slide">
+      <img src="img/o ano do nego.jpg">
+      <h3>O Ano do Nego</h3>
+      <p>Romance com crítica social.</p>
+    </div>
+
+    <div class="slide">
+      <img src="img/a parahyba e seus problemas.jpg">
+      <h3>A Parahyba e Seus Problemas</h3>
+      <p>Análise política da região.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+      <img src="img/trash.png">
+      <h3>Trash</h3>
+      <p>Foco em temas sociais, a realidade brasileira e a produção literária regionalista</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
